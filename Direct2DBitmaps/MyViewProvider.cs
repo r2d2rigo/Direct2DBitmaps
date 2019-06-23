@@ -228,7 +228,8 @@ namespace Direct2DBitmaps
             Utilities.Dispose(ref bitmapDecoder);
             Utilities.Dispose(ref fileStream);
             Utilities.Dispose(ref imagingFactory);
-
+            Utilities.Dispose(ref converter);
+            Utilities.Dispose(ref frame);
             return newBitmap;
         }
     }
